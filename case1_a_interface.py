@@ -32,12 +32,12 @@ import matplotlib.pyplot as plt
 
 
 # 读取第一张图像
-#image_path1 = "C:/Users/0808/Desktop/learning/毕业successful/two time/simple model/useful/useful_p3.5a.png"
+
 image_path1 = ".../case1_2_p0a.png"
 image1 = io.imread(image_path1, as_gray=True)  # 转换为灰度图像
 
 # 读取第二张图像
-#image_path2 = "C:/Users/0808/Desktop/learning/毕业successful/two time/simple model/useful/useful_r3.5a.png"
+
 image_path2 = ".../case1_2_r0a.png"
 image2 = io.imread(image_path2, as_gray=True)  # 转换为灰度图像
 
